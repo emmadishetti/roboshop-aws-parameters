@@ -3,7 +3,7 @@ default:
 	terraform init
 	terraform apply -auto-approve
 
-default:
+default-destroy:
 	 rm -rf .terraform
 	 terraform init
 	 terraform destroy -auto-approve
